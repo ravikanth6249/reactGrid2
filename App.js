@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import DoSorting from './DoSorting';
+import MainGrid from './MainGrid';
  
 import './App.css';
 
@@ -72,7 +72,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-		<DoSorting  cols={this.cols} data={this.arArticles} />
+		<MainGrid cols={this.cols} data={this.arArticles} />
       </div>
     );
   }
